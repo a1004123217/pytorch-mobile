@@ -1,0 +1,1 @@
+python3 imagenet.py -a MobileNetV2_LC --data /workspace/mnt/group/other/luchao/sample_all/ImageNet-pytorch/ --epochs 30 --schedule 11 21  --lr 0.0005 --gpu-id 0 --gamma 0.1 -c checkpoints_mobilev2/imagenet/MobileNetV2

@@ -1,0 +1,1 @@
+python3 imagenet.py -a AlexNetMini_LC --data /workspace/mnt/cache/ImageNet-pytorch/ --train-batch 128 --epochs 100 --schedule 31 61 91 --lr 0.001 --gpu-id 0,1,2,3,4,5,6,7 --gamma 0.1 -c checkpoints_AlexNetMini/imagenet/AlexNetMini_
